@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="./css/estilo.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<br>
+<header>Formulario</header></br>
+<div id="area">
+    <div id="dados_pessoais"></div>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome:</label><input class="campo_nome" type="text"><br>
+            <label>Data de nascimento:</label><input class="campo_nascimento" type="date">
+            <label>Telefone:</label><input class="campo_telefone" type="text"><br>
+        </fieldset>
+    </br>
+        <form id="dados_academicos">
+            <fieldset>
+                <legend>Dados academicos</legend>
+                <label>Curso:</label>
+                <select>
+                    <option>ADS</option>
+                    <option>GTI</option>
+                    <option>TDB</option>
+                    <option>TSI</option>
+                </select>
+                <br>
+                <label>Semestre:</label>
+                <input type="radio"><label for="semestre">1º</label>
+                <input type="radio"><label for="semestre">2º</label>
+                <input type="radio"><label for="semestre">3º</label>
+                <input type="radio"><label for="semestre">4º</label>
+                <input type="radio"><label for="semestre">5º</label>
+            </fieldset>
+        </form>
+    </br>
+        <fieldset>
+            <label>Trabalha?</label><input type="checkbox"></br>
+            <label>Local de trabalho:</label><input type="text"></br>
+            <label>Descreva sua experiencia</label></br>
+            <textarea rows="2" cols="37" maxlength="100"></textarea>
+        </fieldset>
+        </form>
+        </body>
+
+</html>

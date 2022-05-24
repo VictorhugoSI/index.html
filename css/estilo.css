@@ -1,0 +1,74 @@
+#area {
+  position: relative;
+  left: 37%;
+  top: 29%;
+  width: 320px;
+  height: 270px;
+}
+
+#area #formulario {
+  position: absolute;
+  display: block;
+}
+
+fieldset {
+  width: 310px;
+  height: 100px;
+}
+
+legend {
+  font-style: bold;
+  font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+a {
+  color: gray;
+  font-size: larger;
+}
+
+hr {
+  size: 1px;
+  width: 800px;
+  margin-bottom: 25px;
+}
+
+#nome {
+  font-size: medium;
+  font-style: italic;
+  color: black;
+}
+
+#questao {
+  font-size: medium;
+  font-weight: 600;
+  text-align: left;
+}
+
+#resposta {
+  font-size: small;
+  font-style: italic;
+  text-align: left;
+}
+
+#body_index{
+  text-align: center;
+}
+
+#body_questoes{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#titulo_questoes{
+  text-align: center;
+}
